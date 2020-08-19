@@ -1,0 +1,26 @@
+git add .
+git commit -m "第一次我上传的"
+git push -u origin master    //如果不是第一次上传，则命令中要去掉-u   
+
+
+https
+https://github.com/cwlwwl/wx.git
+
+ssh
+git@github.com:cwlwwl/wx.git
+
+
+…or create a new repository on the command line
+echo "# wx" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/cwlwwl/wx.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/cwlwwl/wx.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+

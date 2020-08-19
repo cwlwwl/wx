@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+   <button bindtap="doUpload">
+   上传文件
+   </button>
+   <image src="{{filePath}}">{{filePath}}</image>
+</view>
